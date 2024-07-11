@@ -1,9 +1,0 @@
-$(document).ready(function(){
-  $('.service-link').click(function(e){
-      e.preventDefault();  
-      $('.mrt-description').hide();  
-      $('.service-link').removeClass('active');  
-      $($(this).attr('href')).show();  
-      $(this).addClass('active');  
-  });
-});
